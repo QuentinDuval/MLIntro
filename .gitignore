@@ -4,3 +4,4 @@ __pycache__/
 *.csv
 .ipynb_checkpoints/
 dataset/
+.vector_cache/
