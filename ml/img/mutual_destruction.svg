@@ -90,7 +90,7 @@
 <title>x4&#45;&gt;y6</title>
 <path fill="none" stroke="black" d="M194.72,-119.28C203.01,-109.56 215.03,-95.47 224.3,-84.61"/>
 <polygon fill="black" stroke="black" points="226.04,-85.8 228.34,-79.88 222.85,-83.08 226.04,-85.8"/>
-<text text-anchor="middle" x="230.5" y="-97.11" font-family="Times,serif" font-size="10.00">nuclear</text>
+<text text-anchor="middle" x="225.5" y="-97.11" font-family="Times,serif" font-size="10.00">nuke</text>
 </g>
 <!-- y5&#45;&gt;y6 -->
 <g id="edge11" class="edge">
@@ -121,7 +121,7 @@
 <title>y5&#45;&gt;l2</title>
 <path fill="none" stroke="black" d="M122.31,-51.83C123.04,-43.72 123.93,-33.68 124.66,-25.52"/>
 <polygon fill="black" stroke="black" points="126.78,-25.36 125.22,-19.2 122.6,-24.99 126.78,-25.36"/>
-<text text-anchor="middle" x="140.5" y="-33" font-family="Times,serif" font-size="10.00">nuclear</text>
+<text text-anchor="middle" x="135.5" y="-33" font-family="Times,serif" font-size="10.00">nuke</text>
 </g>
 <!-- l3 -->
 <g id="node10" class="node">
@@ -147,7 +147,7 @@
 <title>y6&#45;&gt;l4</title>
 <path fill="none" stroke="black" d="M251.35,-58.76C267.5,-49.33 294.87,-33.35 313.66,-22.38"/>
 <polygon fill="black" stroke="black" points="315.07,-23.99 319.19,-19.15 312.95,-20.36 315.07,-23.99"/>
-<text text-anchor="middle" x="316.5" y="-33" font-family="Times,serif" font-size="10.00">nuclear</text>
+<text text-anchor="middle" x="311.5" y="-33" font-family="Times,serif" font-size="10.00">nuke</text>
 </g>
 </g>
 </svg>

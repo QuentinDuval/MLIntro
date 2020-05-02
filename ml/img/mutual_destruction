@@ -19,10 +19,10 @@ digraph {
 	y1 -> x3 [arrowsize=0.6 fontsize=10 xlabel=backdown]
 	y1 -> x4 [label=confront arrowsize=0.6 fontsize=10]
 	x4 -> y5 [arrowsize=0.6 fontsize=10 xlabel=retreat]
-	x4 -> y6 [label=nuclear arrowsize=0.6 fontsize=10]
+	x4 -> y6 [label=nuke arrowsize=0.6 fontsize=10]
 	y5 -> l1 [label=retreat arrowsize=0.6 fontsize=10]
-	y5 -> l2 [label=nuclear arrowsize=0.6 fontsize=10]
+	y5 -> l2 [label=nuke arrowsize=0.6 fontsize=10]
 	y6 -> l3 [label=retreat arrowsize=0.6 fontsize=10]
-	y6 -> l4 [label=nuclear arrowsize=0.6 fontsize=10]
+	y6 -> l4 [label=nuke arrowsize=0.6 fontsize=10]
 	y5 -> y6 [arrowhead=none constraint=false style=dashed]
 }

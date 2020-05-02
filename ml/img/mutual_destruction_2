@@ -1,0 +1,13 @@
+// Assured mutual destruction
+digraph {
+	fontsize=6 imagescale=200 nodesep=0.6 pad=0.1 ranksep=0.3
+	x0 [label=1 fontsize=10 height=0.1 shape=circle]
+	y1 [label=2 fontsize=10 height=0.1 shape=circle]
+	y2 [label="0/0" fontsize=10 height=0.1 shape=rectangle]
+	x3 [label="10/-10" fontsize=10 height=0.1 shape=rectangle]
+	x4 [label="-100/100" fontsize=10 height=0.1 shape=rectangle]
+	x0 -> y1 [arrowsize=0.6 fontsize=10 xlabel=escalate]
+	x0 -> y2 [label=ignore arrowsize=0.6 fontsize=10]
+	y1 -> x3 [arrowsize=0.6 fontsize=10 xlabel=backdown]
+	y1 -> x4 [label=confront arrowsize=0.6 fontsize=10]
+}
