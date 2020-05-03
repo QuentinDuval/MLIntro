@@ -1,0 +1,13 @@
+// Market entry game
+digraph {
+	imagescale=200 nodesep=0.6 pad=0.1 ranksep=0.3
+	x0 [label=1 fontsize=10 height=0.1 shape=circle]
+	x1 [label=2 fontsize=10 height=0.1 shape=circle]
+	y0 [label="0/2" fontsize=10 height=0.1 shape=rectangle]
+	y1 [label="-1/-1" fontsize=10 height=0.1 shape=rectangle]
+	y2 [label="1/1" fontsize=10 height=0.1 shape=rectangle]
+	x0 -> y0 [label=Out arrowsize=0.6 fontsize=10]
+	x0 -> x1 [arrowsize=0.6 fontsize=10 xlabel=Enter]
+	x1 -> y1 [label=Fight arrowsize=0.6 fontsize=10]
+	x1 -> y2 [arrowsize=0.6 fontsize=10 xlabel=Accept]
+}
